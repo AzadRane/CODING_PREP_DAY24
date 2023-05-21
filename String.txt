@@ -1,0 +1,30 @@
+There of two ways of creating string
+1-> String s = "ssss";   -> It is created on String constant pool
+2-> String s = new String("sss"); -> It is created on heap 
+
+String constat pool:
+It is managed by JVM
+It is a separete block where string objects are held by JVM.
+
+
+== operator checks the reference of the object 
+.equals checks the content of the string 
+
+mutable: the objects which can be changed are called mutable
+immutable: the objects which cannot be changed are called immutable
+
+
+String is immutable.->for sharability purpose.ALSO THE OTHER WRAPPER classes are immutable 
+
+
+To build string with mutable nature create the string by StringBuffer or StringBuilder class .
+
+Objects of StringBuffer and StringBuilder are mutable.
+
+Difference between StringBuffer class and StringBuilder class is that StringBuffer class is synchronized by default and StringBuilder is not.
+
+to see the dissemble code of java.class file use javap
+
+javap is a utility wich comes with jdk.
+how to use command 
+javap -c filename.java
